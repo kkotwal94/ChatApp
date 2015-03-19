@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Karan's Money Chatter App</title>
+    
+  </head>
+  <body>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+     <link href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+rel="stylesheet">
+     <link href="chat.css" rel="stylesheet" type="text/css">
+     <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>   
+ <div class="container">
+  <div class="jumbotron">
+    <h1>Karan's Chat App!</h1>      
+    <p>A multi room chat app, utilizing javascript/html and css</p>
+  </div>
+ </div>
+	<h1 id = "currentLobby">Lobby Name</h1>
+	<hr/>
+<div class = "parent">
+	<div class = "chat-box" id = "chatbox">
+	
+	  <ul class = "messages" id = "messages">
+	
+	  </ul>
+	</div>	
+	<div class = "chat-input" id = "chat-input">
+	
+	<form action = "">
+        <input class = "input" id = "chatInput" placeholder = "Start chating..!"/>
+        </form>
+	</div>
+	
+
+	<div class = "left" id = 'nickName'>
+	<h3>Login Name:</h3>
+	<form class = "dif" action = "">
+	<input class = "input" id = "nickNames" placeholder = "Enter Nickname.."/>
+	</form>
+	<h3>Currently Logged in as: </h3>
+	
+	<h3 id = 'namespace'></h3>
+	<h3>Currently Online! </h3>
+	<h3 id = "currentLobby">Lobby </h3>
+	</div>
+	<div class = "right">
+	<p>Current Users online</p>
+	<ul id = 'loggedinAS'> 
+	
+	</ul>
+	</div>
+	
+
+</div>
+<hr/>
+	<div class = "parent">
+	<div class = "createServer">
+	<h2>Chatroom List</h2>
+	<ul id = "servers">
+	<li>Joke chat room!</li>
+	<li>Dota chat room</li>
+	<ul>	
+	</div>
+	<div class = "joinServer" id = "joinServer">
+	<h3>Create new Chatroom!"</h3>
+	<form action = "">
+	<input class = "input"id = "createRoom" placeholder = "Create Chatroom...!"/>
+	</form>
+	</div>
+	<div id = "switchServ">
+	<h3>Switch to existing chatroom!</h3>
+	<form action = "">
+	<input class = "input" id = "switch" placeholder = "Switch to Chatroom..."/>
+	</form>
+	</div>
+	
+	<!--
+	<div id = "eraseServer" class = "eraseServer">
+	<h3>Chat room name change!</h3>
+	<form id = "e">
+	<input class = "input" id = "eraseInput" placeholder = "Hit tab after this..."/>
+	</form>
+	<form id = "f">
+           <h3>New Room name:</h3>
+        <input class = "input" id = "newInput" placeholder = "Hit enter after this.."/>
+	</form>
+	</div>
+	//-->
+	</div>	
+	
+<hr/>
+	<div class ="about">
+	<h2>This is a chatroom app which should ultimately, track the #number of users online right now, give a user on a socket a nickname, allow that user to chat with other users on this site, and allow that user to make new chatrooms, or join existing chat rooms! I used javascript (node.js, socket.io, jquery) and basic css and html</h2>
+	<h1>Karan Kotwal</h1>
+	</div>
+	<script src = "index.js"></script>
+    </body>	
+
+</html>
