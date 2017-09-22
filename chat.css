@@ -1,5 +1,5 @@
 body {
-background: url(http://www.1wallpaperhd.com/wp-content/uploads/Colorful/FTP1/1280x720/Solid%20color%20wallpapers%2002%201280x720.jpg) no-repeat center center fixed; 
+background: url(http://eprajournals.com/images/slider/2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,12 +18,12 @@ background: url(http://www.1wallpaperhd.com/wp-content/uploads/Colorful/FTP1/128
     width:570px;
     border:4px solid #000;
     overflow:auto;
-   
+
     //====
     float:left;
-   
-    
-    
+
+
+
 }
 
 h1 {
@@ -49,17 +49,17 @@ background:#eee;
 .chat-box form {
 
 
-padding: 3px; 
-bottom: 0px; 
-width: 98%; 
+padding: 3px;
+bottom: 0px;
+width: 98%;
 
 }
 
 input {
 
-border: 0px; 
-padding: 10px; 
-width: 100%; 
+border: 0px;
+padding: 10px;
+width: 100%;
 
 -webkit-transition: background-color .15s ease-out;
 -moz-transition: background-color .15s ease-out;
@@ -75,9 +75,9 @@ color:red;
 }
 
 form button {
-width: 9%; 
-background: rgb(130, 224, 255); 
-border: none; 
+width: 9%;
+background: rgb(130, 224, 255);
+border: none;
 padding: 10px; }
 
 /*#chatInput {
@@ -162,12 +162,12 @@ font-size: 24px;
 }
 
 hr {
- border: 0; 
+ border: 0;
 height: 1px;
- background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
 .createServer {
